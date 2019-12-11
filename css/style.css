@@ -26,4 +26,12 @@
         margin:0px;
 
     }
+    img{
+        float:left;
+    }
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+        grid-template-rows:  1fr, 1fr, 1fr, 1fr, 1fr;
+    }
 }
