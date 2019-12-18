@@ -5,7 +5,11 @@
         text-align:center;
         font-size:2em;
         font-weight:bolder;
-        padding: 1em;
+        padding:1em;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
         /*dylan is a duck**/
     }
     body{
@@ -65,7 +69,7 @@
 
     }
     img{
-        float:left;
+        width: 100%;
     }
 
 }
@@ -76,7 +80,11 @@
         text-align:center;
         font-size:2em;
         font-weight:bolder;
-        padding: 1em
+        padding:1em;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
         /*dy    lan is a duck*/
     }
     body{
@@ -84,7 +92,7 @@
 
     }
     img{
-        float:left;
+
     }
     .box1 {
         font-size: 2em;
@@ -102,6 +110,7 @@
         cursor: pointer;
         outline: none;
       }
+
       .sidenav a:hover {
         color: yellow;
         overflow-x: visible;
@@ -110,4 +119,9 @@
       a {
           color: white;
       }
-}
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-size: 2em;
+    }
+    }
