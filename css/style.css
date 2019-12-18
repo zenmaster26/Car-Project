@@ -16,7 +16,7 @@
         margin:0px;
 
     }
-    img{
+    img.front{
         float:left;
     }
     .gridcontainer{
@@ -54,7 +54,6 @@
     header{
         background-color: darkblue;
         color:white;
-        text-align:center;
         font-size:2em;
         font-weight:bolder;
         padding:1em;
@@ -68,10 +67,14 @@
         margin:0px;
 
     }
-    img{
+    img.front{
         width: 100%;
     }
-
+    img.logo {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
 }
 @media only screen and (min-width: 900px){
     header{
@@ -91,13 +94,12 @@
         margin:0px;
 
     }
-    img{
-
+    img.front{
+        margin-left: 0px;
     }
     .box1 {
         font-size: 2em;
         box-sizing: border-box;
-        text-align: center;
         
     }
     .sidenav a {
@@ -114,11 +116,15 @@
       .sidenav a:hover {
         color: yellow;
         overflow-x: visible;
-        transition: 0.5s;
+        transition: 1s;
       }
       a {
           color: white;
       }
+      img.logo {
+        position: relative;
+      
+    }
     h2 {
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
