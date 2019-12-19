@@ -84,6 +84,9 @@
         font-weight: bold;
         bottom: 0px; 
     }
+    .fill{
+        margin:30%;
+    }
 }
 @media only screen and (min-width:600px){
     header{
@@ -165,6 +168,9 @@
         grid-row-start: 5;
         grid-row-end: 6;
         font-weight: bold;
+    }
+    .fill{
+        margin:27.9%;
     }
 }
 @media only screen and (min-width: 900px){
@@ -248,6 +254,6 @@
         font-weight: bold;
     }
     .fill{
-        margin:30%;
+        margin:22.8%;
     }
     }
