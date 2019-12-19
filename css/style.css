@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open";
+    src: url("fonts/OpenSans-Regular.ttf") format('TrueType');
+  }
+  @font-face {
+  font-family: "lato";
+  src: url("fonts/Lato-Regular.ttf") format("TrueType"),
+       url("fonts/Lato-Bold.ttf") format("TrueType"), 
+       url("fonts/Lato-Italic.ttf") format("TrueType");
+}
 @media only screen and (max-width:600px){
     header{
         background-color: darkblue;
@@ -16,7 +26,12 @@
 
     }
     img.front{
-        margin-left: 0px;
+        float: left;
+        padding-right: 2%;
+        border-right: black solid 2px;
+    }   
+    p {
+        font-family: 'lato';
     }
     .box1 {
         
@@ -24,7 +39,11 @@
         
     }
     .sidenav a {
+        font-family: open;
+        margin-top: 15%;
+
         margin: 10%;
+        font-size: 0.6em;
         text-decoration: none;
         border: none;
         background: none;
@@ -42,15 +61,16 @@
           color: white;
       }
       img.logo {
-        position: relative;
-        height: 10%;
-        width: 10%;
-      
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2em;
+        height: 2em;
     }
     h2 {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'lato';
         text-align: center;
-        font-size: 2em;
+        font-size: 1.4em;
     }
     img{
         height: 60%;
@@ -86,14 +106,25 @@
 
     }
     img.front{
-        margin-left: 0px;
+        float: left;
+        padding-right: 2%;
+        border-right: black solid 2px;
+    }
+    p {
+        font-family: 'lato';
     }
     .box1 {
         
         box-sizing: border-box;
         
     }
+    .sidenav {
+
+    }
     .sidenav a {
+        font-family: open;
+        font-size: 1em;
+                
         margin: 10%;
         text-decoration: none;
         border: none;
@@ -112,13 +143,14 @@
           color: white;
       }
       img.logo {
-        position: relative;
-        height: 10%;
-        width: 10%;
-      
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 3.5em;
+        height: 3.5em;
     }
     h2 {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'lato';
         text-align: center;
         font-size: 2em;
     }
@@ -156,8 +188,18 @@
         margin:0px;
 
     }
+    p {
+        margin: 1em;
+        font-size: 1.9em;
+        font-family: 'lato';
+        
+
+    }
     img.front{
-        margin-left: 0px;
+        float: left;
+        padding-right: 2%;
+        border-right: black solid 2px;
+
     }
     .box1 {
         font-size: 2em;
@@ -165,9 +207,11 @@
         
     }
     .sidenav a {
+        font-family: open;
+
         margin: 50px;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 0.9em;
         border: none;
         background: none;
         width: 100%;
@@ -184,11 +228,14 @@
           color: white;
       }
       img.logo {
-        position: relative;
-      
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 4.5em;
+        height: 4.5em;
     }
     h2 {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'lato';
         text-align: center;
         font-size: 2em;
     }
