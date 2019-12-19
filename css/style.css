@@ -266,16 +266,16 @@
         width: 400vw;
       }
       .one {
-        background: #efdefe;
+        background: #FFFFFF;
       }
       .two {
-        background: #a3f3d3;
+        background: #FFFFFF;
       }
       .three {
-        background: #0bbaa0;
+        background: #FFFFFF;
       }
       .four {
-        background: #00dfdf;
+        background: #FFFFFF;
       }
       .wrapper {
           transform: rotate(90deg) translateY(-100vh);
