@@ -84,7 +84,7 @@
         font-weight: bold;
         bottom: 0px; 
     }
-    
+
     .fill{
         margin:30%;
     }
@@ -99,26 +99,31 @@
       }
       .one {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .two {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .three {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .four {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .wrapper {
           transform: rotate(90deg) translateY(-100vh);
           transform-origin: top left;
         }
         .outer-wrapper {
-<<<<<<< Updated upstream
           width: 100vh;
-=======
           width: 90vh;
->>>>>>> Stashed changes
           height: 100vw;
           transform: rotate(-90deg) translateX(-100vh);
           transform-origin: top left;
@@ -133,7 +138,6 @@
             ::-webkit-scrollbar {
               display:none;
             }
-<<<<<<< Updated upstream
             .gallery img{
                 margin-left: 2em;
                 height: 20%;
@@ -141,8 +145,7 @@
                 float: none;
             }
     
-=======
->>>>>>> Stashed changes
+
 }
 @media only screen and (min-width:600px){
     header{
@@ -239,15 +242,23 @@
       }
       .one {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .two {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .three {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .four {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .wrapper {
           transform: rotate(90deg) translateY(-100vh);
@@ -269,7 +280,6 @@
             ::-webkit-scrollbar {
               display:none;
             }
-<<<<<<< Updated upstream
             .gallery img{
                 margin-left: 2em;
                 height: 20%;
@@ -277,8 +287,6 @@
                 float: none;
             }
     
-=======
->>>>>>> Stashed changes
 }
 @media only screen and (min-width: 900px){
     header{
@@ -374,15 +382,23 @@
       }
       .one {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .two {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .three {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .four {
         background: #FFFFFF;
+        border-left: black solid 2px;
+        border-right: black solid 2px;
       }
       .wrapper {
           transform: rotate(90deg) translateY(-100vh);
@@ -396,6 +412,7 @@
           overflow-y: scroll;
           overflow-x: hidden;
           position: absolute;
+
         }
         .outer-wrapper {
               scrollbar-width: none;
